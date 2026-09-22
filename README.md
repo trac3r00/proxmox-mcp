@@ -1,5 +1,11 @@
 # Proxmox VE MCP
 
+[![CI](https://github.com/trac3r00/proxmox-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/trac3r00/proxmox-mcp/actions/workflows/ci.yml)
+
+Secure, API-token authenticated MCP access to the Proxmox VE HTTP API. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for local checks and
+[SECURITY.md](SECURITY.md) for private vulnerability reporting.
+
 An MCP server that connects to Proxmox VE using an API token. It exposes **every HTTP API path**, not a hardcoded subset of VM operations, and provides searchable API documentation, multipart uploads, and streamed downloads.
 
 VMs, LXC, nodes, clusters, storage, backups, snapshots, migration, replication, networking, SDN, firewall, Ceph, HA, pools, users, ACLs, metrics, and tasks all use the same API tools. New endpoints work without a server update.

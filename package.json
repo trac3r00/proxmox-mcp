@@ -2,8 +2,17 @@
   "name": "proxmox-ve-mcp",
   "version": "0.1.0",
   "description": "API-token authenticated MCP access to the Proxmox VE HTTP API",
+  "license": "MIT",
   "type": "module",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trac3r00/proxmox-mcp.git"
+  },
+  "homepage": "https://github.com/trac3r00/proxmox-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/trac3r00/proxmox-mcp/issues"
+  },
   "scripts": {
     "start": "bun src/index.ts",
     "build": "bun build src/index.ts --outdir dist --target bun --packages external",
